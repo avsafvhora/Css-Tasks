@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video positioning effect</title>
+    <style>
+        .video1{
+            top:0px;
+            left:0px;
+            bottom:0px;
+            position:fixed;
+        }
+        .text{
+            position: absolute;
+            font-size: 150px;
+            color: transparent;
+            transition: 0.2s ease-in-out;
+        }
+        .text:hover{
+            color: red;
+            transition: 0.2s ease-in-out;
+        }
+        h2{
+            margin-top: 20px;
+            margin-left: 40px;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        .natureDiv{
+            position:absolute;
+			top:35%;
+            left: 25%;
+        }
+    </style>
+</head>
+<body>
+    <video class="video1" src="" loop muted autoplay width="100%"></video>
+    <div class="natureDiv">
+    <h2 class="text">NATURE</h2>
+    </div>
+</body>
+</html>
